@@ -1,0 +1,52 @@
+body {
+	min-width: 290px;
+}
+
+/*Navbar*/
+
+.navbar-container {
+	position: relative;
+	max-width: 25%;
+	background-color: red;
+}
+header h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#navbar {
+	position: fixed;
+	min-width: 290px;
+	top: 0px;
+	left: 0px;
+	background-color: pink;
+	padding-left: 20px;
+	width: 33%;
+	/*makes whole left side fill to bottom- infinite*/
+	height: 100%;
+	/* z-index: Bottom placement to make links work*/
+	z-index: 1;
+}
+
+/*To remove bullets and padding*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 50px 20px;
+	height: 400px;
+}
+
+/*To remove lines under links*/
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 0 0 50px 20px;
+}
+
+#main-doc {
+	position: absolute;
+	text-align: left;
+	/*z-index: Top Placement */
+	z-index: 2;
+	margin-left: 30%;
+}
